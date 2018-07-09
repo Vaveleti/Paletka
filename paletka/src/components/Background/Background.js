@@ -8,7 +8,7 @@ class Background extends Component {
     this.state = {
       children: props.children,
       height_Window: window.innerHeight,
-      width_Window: window.innerWidth
+      width_Window: window.innerWidth,
     }
   }
 

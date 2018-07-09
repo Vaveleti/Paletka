@@ -8,8 +8,6 @@ class Main extends Component {
     return (
       <div>
         <Background>
-          <h1>DUPO CZORNO</h1>
-          <Racket />
           <Racket />
         </Background>
       </div>

@@ -1,4 +1,9 @@
-.background{
+.background {
   background-color: black;
   color: white;
+  outline: 5px solid white;
+  height: 400px;
+  width: 300px;
+  margin: 50px;
+  position: relative;
 }

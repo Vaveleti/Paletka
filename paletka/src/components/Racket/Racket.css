@@ -1,6 +1,7 @@
 
 .racket{
-    height: 20px;
-    width: 100px;
+    height: 10px;
+    width: 50px;
     background: white;
+    position: absolute;
 }
