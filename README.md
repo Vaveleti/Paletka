@@ -1,0 +1,2 @@
+# Paletka
+Game in react
