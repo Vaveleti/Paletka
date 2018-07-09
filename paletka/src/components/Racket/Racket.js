@@ -37,6 +37,7 @@ class Racket extends Component {
           x_racket_position: prevState.x_racket_position + 5
         }
       });
+
     }
 
     else if ( ( event.keyCode === 37 || event.keyCode === 65 ) && x_racket_position > LEFT_LIMIT ) {
@@ -56,7 +57,7 @@ class Racket extends Component {
     }
 
     return(
-      <div className='racket' style={racket_pos}></div>
+      <div className='racket' style={racket_pos} id='playerRacket'></div>
     );
   }
 

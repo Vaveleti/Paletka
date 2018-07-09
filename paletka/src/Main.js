@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Racket from './components/Racket/Racket'
 import Background from './components/Background/Background'
+import Ball from './components/Ball/Ball'
 
 class Main extends Component {
 
@@ -9,6 +10,7 @@ class Main extends Component {
       <div>
         <Background>
           <Racket />
+          <Ball />
         </Background>
       </div>
     );
